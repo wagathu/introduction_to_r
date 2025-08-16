@@ -488,7 +488,7 @@
   };
 
   // Store cell data
-  globalThis.qwebrCellDetails = [{"code":"# Different vector types\nnums <- c(10, 20, 30)\nchars <- c(\"apple\", \"banana\", \"cherry\")\nlogicals <- c(TRUE, FALSE, TRUE)\n\n# Vector operations\nnums * 2        # multiply all by 2\nnums[2]         # get second element\nlength(nums)    # vector length\n\n# Try your own vectors!","id":1,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-1","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"# Create a matrix\nmat <- matrix(1:12, nrow = 3, ncol = 4)\nmat\n\n# Matrix dimensions\ndim(mat)\nnrow(mat)\nncol(mat)\n\n# Access elements\nmat[2, 3]       # row 2, column 3\nmat[1, ]        # entire first row\nmat[, 2]        # entire second column","id":2,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-2","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"# Create a mixed list\nmy_list <- list(\n  name = \"John\",\n  age = 25,\n  scores = c(85, 90, 78),\n  married = TRUE\n)\n\nmy_list\n\n# Access elements\nmy_list$name\nmy_list$scores\nmy_list[[2]]    # age by position","id":3,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-3","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"# Create a data frame\nstudents <- data.frame(\n  name = c(\"Alice\", \"Bob\", \"Carol\"),\n  age = c(20, 22, 21),\n  grade = c(\"A\", \"B\", \"A\"),\n  passed = c(TRUE, TRUE, TRUE)\n)\n\nstudents\n\n# Access columns by name\nstudents$name\nstudents$age","id":4,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-4","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"# Practice area - experiment with data structures!\n\n# 1. Create your own vector\n\n\n# 2. Make a matrix\n\n\n# 3. Build a list\n\n\n# 4. Construct a data frame\n\n\n# Use functions like str(), class(), length(), dim() to explore!","id":5,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-5","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"# Installing a package\ninstall.packages(\"tidyverse\")\nlibrary(tidyverse)","id":6,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-6","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
+  globalThis.qwebrCellDetails = [{"code":"# Numeric/double\nx <- 42\ntypeof(x)\n\n# Character\ny <- \"Hello\"\ntypeof(y)\n\n# Logical\nz <- TRUE\ntypeof(z)\n\n# Integer needs L\nw <- 42L\ntypeof(w)","id":1,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"echo":"true","editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","eval":"false","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-1","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"# Different vector types\nnums <- c(10, 20, 30)\nchars <- c(\"apple\", \"banana\", \"cherry\")\nlogicals <- c(TRUE, FALSE, TRUE)\n\n# Vector operations\nnums * 2        # multiply all by 2\nnums[2]         # get second element\nlength(nums)    # vector length\n\n# Try your own vectors!","id":2,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-2","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"# Create a matrix\nmat <- matrix(1:12, nrow = 3, ncol = 4)\nmat\n\n# Matrix dimensions\ndim(mat)\nnrow(mat)\nncol(mat)\n\n# Access elements\nmat[2, 3]       # row 2, column 3\nmat[1, ]        # entire first row\nmat[, 2]        # entire second column","id":3,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-3","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"# Create a mixed list\nmy_list <- list(\n  name = \"John\",\n  age = 25,\n  scores = c(85, 90, 78),\n  married = TRUE\n)\n\nmy_list\n\n# Access elements\nmy_list$name\nmy_list$scores\nmy_list[[2]]    # age by position","id":4,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-4","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"# Create a data frame\nstudents <- data.frame(\n  name = c(\"Alice\", \"Bob\", \"Carol\"),\n  age = c(20, 22, 21),\n  grade = c(\"A\", \"B\", \"A\"),\n  passed = c(TRUE, TRUE, TRUE)\n)\n\nstudents\n\n# Access columns by name\nstudents$name\nstudents$age","id":5,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-5","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"# Practice area - experiment with data structures!\n\n# 1. Create your own vector\n\n\n# 2. Make a matrix\n\n\n# 3. Build a list\n\n\n# 4. Construct a data frame\n\n\n# Use functions like str(), class(), length(), dim() to explore!","id":6,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-6","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"# only need to do this once\ninstall.packages(\"tidyverse\")","id":7,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-7","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"library(tidyverse)","id":8,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-8","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
 
   </script>
   <script type="module">
@@ -2138,6 +2138,16 @@ Brian Njuguna
 </div>
 </div>
 </section>
+<section id="organizing-your-work-with-projects" class="slide level2">
+<h2>Organizing your work with projects</h2>
+<div>
+<ul>
+<li class="fragment"><p>An R Project is a dedicated folder that keeps all files, scripts, and data for a single analysis in one place</p></li>
+<li class="fragment"><p>It helps organize your work, making your code reproducible and easier to share</p></li>
+<li class="fragment"><p>Projects also manage file paths automatically, so you don’t need to set a working directory manually</p></li>
+</ul>
+</div>
+</section>
 <section id="basic-syntax-in-r" class="slide level2">
 <h2>Basic Syntax in R</h2>
 <ul>
@@ -2223,23 +2233,8 @@ Brian Njuguna
 <li>Use the <code>typeof()</code> function to check a data type</li>
 </ul>
 </div><div class="column" style="width:40%;">
-<div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href=""></a><span class="co"># Numeric/double</span></span>
-<span id="cb5-2"><a href=""></a>x <span class="ot">&lt;-</span> <span class="dv">42</span></span>
-<span id="cb5-3"><a href=""></a><span class="fu">typeof</span>(x)</span>
-<span id="cb5-4"><a href=""></a></span>
-<span id="cb5-5"><a href=""></a><span class="co"># Character</span></span>
-<span id="cb5-6"><a href=""></a>y <span class="ot">&lt;-</span> <span class="st">"Hello"</span></span>
-<span id="cb5-7"><a href=""></a><span class="fu">typeof</span>(y)</span>
-<span id="cb5-8"><a href=""></a></span>
-<span id="cb5-9"><a href=""></a><span class="co"># Logical</span></span>
-<span id="cb5-10"><a href=""></a>z <span class="ot">&lt;-</span> <span class="cn">TRUE</span></span>
-<span id="cb5-11"><a href=""></a><span class="fu">typeof</span>(z)</span>
-<span id="cb5-12"><a href=""></a></span>
-<span id="cb5-13"><a href=""></a><span class="co"># Integer needs L</span></span>
-<span id="cb5-14"><a href=""></a>w <span class="ot">&lt;-</span> <span class="dv">42</span>L</span>
-<span id="cb5-15"><a href=""></a><span class="fu">typeof</span>(w)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<div id="qwebr-insertion-location-1"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </div></div>
 </section>
 <section id="data-structures-in-r" class="slide level2">
@@ -2272,7 +2267,7 @@ Brian Njuguna
 <section id="vectors-in-r-1" class="slide level2">
 <h2>Vectors in R</h2>
 <p>Vectors are the most basic data structure - a collection of elements of the same type.</p>
-<div id="qwebr-insertion-location-1"></div>
+<div id="qwebr-insertion-location-2"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
 <section id="matrices-in-r" class="slide level2">
@@ -2294,7 +2289,7 @@ Brian Njuguna
 <section id="matrices-in-r-1" class="slide level2">
 <h2>Matrices in R</h2>
 <p>Matrices are two-dimensional arrays where all elements must be the same data type.</p>
-<div id="qwebr-insertion-location-2"></div>
+<div id="qwebr-insertion-location-3"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
 <section id="lists-in-r" class="slide level2">
@@ -2320,7 +2315,7 @@ Brian Njuguna
 <section id="lists-in-r-1" class="slide level2">
 <h2>Lists in R</h2>
 <p>Lists can hold different data types and structures</p>
-<div id="qwebr-insertion-location-3"></div>
+<div id="qwebr-insertion-location-4"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
 <section id="data-frames-in-r" class="slide level2">
@@ -2352,13 +2347,13 @@ Brian Njuguna
 <section id="data-frames-in-r-2" class="slide level2">
 <h2>Data Frames in R</h2>
 <p>Data frames are like spreadsheets - the most common structure for real data analysis.</p>
-<div id="qwebr-insertion-location-4"></div>
+<div id="qwebr-insertion-location-5"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
 <section id="interactive-data-structure-explorer" class="slide level2">
 <h2>Interactive Data Structure Explorer</h2>
 <p>Try creating and exploring different data structures:</p>
-<div id="qwebr-insertion-location-5"></div>
+<div id="qwebr-insertion-location-6"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
 <section id="r-packages" class="slide level2">
@@ -2368,11 +2363,16 @@ Brian Njuguna
 </ul>
 <div class="fragment">
 <ul>
-<li>There are two main steps to use a package: install it, then load it.</li>
+<li>Packages need to be installed on your machine</li>
 </ul>
+<div id="qwebr-insertion-location-7"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </div>
 <div class="fragment">
-<div id="qwebr-insertion-location-6"></div>
+<ul>
+<li>Packages need to be loaded/attached with <code>library()</code> at the beginning of every session</li>
+</ul>
+<div id="qwebr-insertion-location-8"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </div>
 </section>
@@ -2440,8 +2440,8 @@ Brian Njuguna
 <h2>Plasmodium falciparum Parasite Rate (PfPr)</h2>
 <p><br></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href=""></a>pfpr_data <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"data/pfpr_intvn.csv"</span>)</span>
-<span id="cb6-2"><a href=""></a>pfpr_data</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href=""></a>pfpr_data <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"data/pfpr_intvn.csv"</span>)</span>
+<span id="cb5-2"><a href=""></a>pfpr_data</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p><br></p>
 <div style="font-size: 0.75em">
@@ -2514,8 +2514,8 @@ Brian Njuguna
 </ul>
 <div class="fragment">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href=""></a><span class="co"># Filter urban data only</span></span>
-<span id="cb7-2"><a href=""></a>urban_data <span class="ot">&lt;-</span> <span class="fu">filter</span>(pfpr_data, residence <span class="sc">==</span> <span class="st">"urban"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href=""></a><span class="co"># Filter urban data only</span></span>
+<span id="cb6-2"><a href=""></a>urban_data <span class="ot">&lt;-</span> <span class="fu">filter</span>(pfpr_data, residence <span class="sc">==</span> <span class="st">"urban"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div style="font-size: 0.75em">
 <div class="cell">
@@ -2581,8 +2581,8 @@ Brian Njuguna
 <li><p>Using the pipe operator <code>%&gt;%</code></p></li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href=""></a><span class="co"># Filter urban data only</span></span>
-<span id="cb8-2"><a href=""></a>urban_data <span class="ot">&lt;-</span> pfpr_data <span class="sc">%&gt;%</span> <span class="fu">filter</span>(residence <span class="sc">==</span> <span class="st">"urban"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href=""></a><span class="co"># Filter urban data only</span></span>
+<span id="cb7-2"><a href=""></a>urban_data <span class="ot">&lt;-</span> pfpr_data <span class="sc">%&gt;%</span> <span class="fu">filter</span>(residence <span class="sc">==</span> <span class="st">"urban"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div style="font-size: 0.75em">
 <div class="cell">
@@ -2647,8 +2647,8 @@ Brian Njuguna
 <li><p>Using the pipe operator <code>|&gt;</code></p></li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href=""></a><span class="co"># Filter urban data only</span></span>
-<span id="cb9-2"><a href=""></a>urban_data <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span> <span class="fu">filter</span>(residence <span class="sc">==</span> <span class="st">"urban"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href=""></a><span class="co"># Filter urban data only</span></span>
+<span id="cb8-2"><a href=""></a>urban_data <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span> <span class="fu">filter</span>(residence <span class="sc">==</span> <span class="st">"urban"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div style="font-size: 0.75em">
 <div class="cell">
@@ -2713,9 +2713,9 @@ Brian Njuguna
 <li><p>Using the pipe operator <code>|&gt;</code></p></li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href=""></a><span class="co"># Filter urban data only</span></span>
-<span id="cb10-2"><a href=""></a>urban_data <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span> </span>
-<span id="cb10-3"><a href=""></a>  <span class="fu">filter</span>(residence <span class="sc">==</span> <span class="st">"urban"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href=""></a><span class="co"># Filter urban data only</span></span>
+<span id="cb9-2"><a href=""></a>urban_data <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span> </span>
+<span id="cb9-3"><a href=""></a>  <span class="fu">filter</span>(residence <span class="sc">==</span> <span class="st">"urban"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div style="font-size: 0.75em">
 <div class="cell">
@@ -2780,8 +2780,8 @@ Brian Njuguna
 </ul>
 <div class="fragment">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href=""></a>nairobi_mombasa <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span> </span>
-<span id="cb11-2"><a href=""></a>  <span class="fu">filter</span>(county <span class="sc">==</span> <span class="st">"Nairobi"</span> <span class="sc">|</span> county <span class="sc">==</span> <span class="st">"Mombasa"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href=""></a>nairobi_mombasa <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span> </span>
+<span id="cb10-2"><a href=""></a>  <span class="fu">filter</span>(county <span class="sc">==</span> <span class="st">"Nairobi"</span> <span class="sc">|</span> county <span class="sc">==</span> <span class="st">"Mombasa"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div style="font-size: 0.75em">
 <div class="cell">
@@ -2847,8 +2847,8 @@ Brian Njuguna
 </ul>
 <div class="fragment">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href=""></a>several_counties <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span> </span>
-<span id="cb12-2"><a href=""></a>  <span class="fu">filter</span>(county <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"Nairobi"</span>, <span class="st">"Mombasa"</span>, <span class="st">"Kisumu"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href=""></a>several_counties <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span> </span>
+<span id="cb11-2"><a href=""></a>  <span class="fu">filter</span>(county <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"Nairobi"</span>, <span class="st">"Mombasa"</span>, <span class="st">"Kisumu"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div style="font-size: 0.75em">
 <div class="cell">
@@ -2914,8 +2914,8 @@ Brian Njuguna
 </ul>
 <div class="fragment">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href=""></a>urban_2020 <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span></span>
-<span id="cb13-2"><a href=""></a>  <span class="fu">filter</span>(residence <span class="sc">==</span> <span class="st">"urban"</span> <span class="sc">&amp;</span> year <span class="sc">==</span> <span class="dv">2020</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href=""></a>urban_2020 <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span></span>
+<span id="cb12-2"><a href=""></a>  <span class="fu">filter</span>(residence <span class="sc">==</span> <span class="st">"urban"</span> <span class="sc">&amp;</span> year <span class="sc">==</span> <span class="dv">2020</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div style="font-size: 0.75em">
 <div class="cell">
@@ -2980,8 +2980,8 @@ Brian Njuguna
 </ul>
 <div class="fragment">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href=""></a>county_prev <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span></span>
-<span id="cb14-2"><a href=""></a>  <span class="fu">select</span>(county)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href=""></a>county_prev <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span></span>
+<span id="cb13-2"><a href=""></a>  <span class="fu">select</span>(county)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div style="font-size: 0.75em">
 <div class="cell">
@@ -3021,8 +3021,8 @@ Brian Njuguna
 <li><code>select</code> keeps or discards columns (variables)</li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href=""></a>county_prev <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span></span>
-<span id="cb15-2"><a href=""></a>  <span class="fu">select</span>(county, pfpr)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href=""></a>county_prev <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span></span>
+<span id="cb14-2"><a href=""></a>  <span class="fu">select</span>(county, pfpr)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div style="font-size: 0.75em">
 <div class="cell">
@@ -3067,8 +3067,8 @@ Brian Njuguna
 <li><code>select</code> can drop columns with -<code>column</code></li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href=""></a>county_prev <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span></span>
-<span id="cb16-2"><a href=""></a>  <span class="fu">select</span>(<span class="sc">-</span>county, <span class="sc">-</span>pfpr)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href=""></a>county_prev <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span></span>
+<span id="cb15-2"><a href=""></a>  <span class="fu">select</span>(<span class="sc">-</span>county, <span class="sc">-</span>pfpr)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div style="font-size: 0.75em">
 <div class="cell">
@@ -3120,8 +3120,8 @@ Brian Njuguna
 </ul>
 <div class="fragment">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href=""></a>pfpr_data_percent <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span></span>
-<span id="cb17-2"><a href=""></a>  <span class="fu">mutate</span>(<span class="at">itn_percent =</span> itn_coverage <span class="sc">*</span> <span class="dv">100</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href=""></a>pfpr_data_percent <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span></span>
+<span id="cb16-2"><a href=""></a>  <span class="fu">mutate</span>(<span class="at">itn_percent =</span> itn_coverage <span class="sc">*</span> <span class="dv">100</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div style="font-size: 0.75em">
 <div class="cell">
@@ -3191,11 +3191,11 @@ Brian Njuguna
 <li><code>mutate</code> can create multiple variables</li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href=""></a>pfpr_data_percent <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span></span>
-<span id="cb18-2"><a href=""></a>  <span class="fu">mutate</span>(</span>
-<span id="cb18-3"><a href=""></a>    <span class="at">itn_percent =</span> itn_coverage <span class="sc">*</span> <span class="dv">100</span>,</span>
-<span id="cb18-4"><a href=""></a>    <span class="at">pfpr_percent =</span> pfpr <span class="sc">*</span> <span class="dv">100</span></span>
-<span id="cb18-5"><a href=""></a>    )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href=""></a>pfpr_data_percent <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span></span>
+<span id="cb17-2"><a href=""></a>  <span class="fu">mutate</span>(</span>
+<span id="cb17-3"><a href=""></a>    <span class="at">itn_percent =</span> itn_coverage <span class="sc">*</span> <span class="dv">100</span>,</span>
+<span id="cb17-4"><a href=""></a>    <span class="at">pfpr_percent =</span> pfpr <span class="sc">*</span> <span class="dv">100</span></span>
+<span id="cb17-5"><a href=""></a>    )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div style="font-size: 0.6em">
 <div class="cell">
@@ -3279,11 +3279,11 @@ Brian Njuguna
 <li><code>mutate</code> can modify existing variables</li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href=""></a>pfpr_data_percent <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span></span>
-<span id="cb19-2"><a href=""></a>  <span class="fu">mutate</span>(</span>
-<span id="cb19-3"><a href=""></a>    <span class="at">pfpr =</span> <span class="fu">round</span>(pfpr, <span class="dv">3</span>),</span>
-<span id="cb19-4"><a href=""></a>    <span class="at">itn_coverage =</span> <span class="fu">round</span>(itn_coverage, <span class="dv">2</span>)</span>
-<span id="cb19-5"><a href=""></a>    )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href=""></a>pfpr_data_percent <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span></span>
+<span id="cb18-2"><a href=""></a>  <span class="fu">mutate</span>(</span>
+<span id="cb18-3"><a href=""></a>    <span class="at">pfpr =</span> <span class="fu">round</span>(pfpr, <span class="dv">3</span>),</span>
+<span id="cb18-4"><a href=""></a>    <span class="at">itn_coverage =</span> <span class="fu">round</span>(itn_coverage, <span class="dv">2</span>)</span>
+<span id="cb18-5"><a href=""></a>    )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div style="font-size: 0.6em">
 <div class="cell">
@@ -3348,9 +3348,9 @@ Brian Njuguna
 <li><p><code>summarize()</code> specifies the aggregation . . .</p></li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href=""></a>mean_pfpr <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span></span>
-<span id="cb20-2"><a href=""></a>  <span class="fu">group_by</span>(county) <span class="sc">|&gt;</span></span>
-<span id="cb20-3"><a href=""></a>  <span class="fu">summarise</span>(<span class="at">average_pfpr =</span> <span class="fu">mean</span>(pfpr))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href=""></a>mean_pfpr <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span></span>
+<span id="cb19-2"><a href=""></a>  <span class="fu">group_by</span>(county) <span class="sc">|&gt;</span></span>
+<span id="cb19-3"><a href=""></a>  <span class="fu">summarise</span>(<span class="at">average_pfpr =</span> <span class="fu">mean</span>(pfpr))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div style="font-size: 0.6em">
 <div class="cell">
@@ -3397,9 +3397,9 @@ Brian Njuguna
 <li><p><code>summarize()</code> specifies the aggregation</p></li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href=""></a>county_observations <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span> </span>
-<span id="cb21-2"><a href=""></a>  <span class="fu">group_by</span>(county) <span class="sc">|&gt;</span> </span>
-<span id="cb21-3"><a href=""></a>  <span class="fu">summarise</span>(<span class="at">count =</span> <span class="fu">n</span>())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href=""></a>county_observations <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span> </span>
+<span id="cb20-2"><a href=""></a>  <span class="fu">group_by</span>(county) <span class="sc">|&gt;</span> </span>
+<span id="cb20-3"><a href=""></a>  <span class="fu">summarise</span>(<span class="at">count =</span> <span class="fu">n</span>())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div style="font-size: 0.6em">
 <div class="cell">
@@ -3446,9 +3446,9 @@ Brian Njuguna
 <li><p><code>summarize()</code> specifies the aggregation</p></li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href=""></a>residence_average <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span> </span>
-<span id="cb22-2"><a href=""></a>  <span class="fu">group_by</span>(county, residence) <span class="sc">|&gt;</span></span>
-<span id="cb22-3"><a href=""></a>  <span class="fu">summarise</span>(<span class="at">average_pfpr =</span> <span class="fu">mean</span>(pfpr))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href=""></a>residence_average <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span> </span>
+<span id="cb21-2"><a href=""></a>  <span class="fu">group_by</span>(county, residence) <span class="sc">|&gt;</span></span>
+<span id="cb21-3"><a href=""></a>  <span class="fu">summarise</span>(<span class="at">average_pfpr =</span> <span class="fu">mean</span>(pfpr))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div style="font-size: 0.6em">
 <div class="cell">
@@ -3501,12 +3501,12 @@ Brian Njuguna
 <li><p><code>summarize()</code> specifies the aggregation</p></li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href=""></a>average_itn_pfpr <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span> </span>
-<span id="cb23-2"><a href=""></a>  <span class="fu">group_by</span>(year, residence) <span class="sc">|&gt;</span></span>
-<span id="cb23-3"><a href=""></a>  <span class="fu">summarise</span>(</span>
-<span id="cb23-4"><a href=""></a>    <span class="at">average_pfpr =</span> <span class="fu">mean</span>(pfpr),</span>
-<span id="cb23-5"><a href=""></a>    <span class="at">average_itn =</span> <span class="fu">mean</span>(itn_coverage)</span>
-<span id="cb23-6"><a href=""></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href=""></a>average_itn_pfpr <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span> </span>
+<span id="cb22-2"><a href=""></a>  <span class="fu">group_by</span>(year, residence) <span class="sc">|&gt;</span></span>
+<span id="cb22-3"><a href=""></a>  <span class="fu">summarise</span>(</span>
+<span id="cb22-4"><a href=""></a>    <span class="at">average_pfpr =</span> <span class="fu">mean</span>(pfpr),</span>
+<span id="cb22-5"><a href=""></a>    <span class="at">average_itn =</span> <span class="fu">mean</span>(itn_coverage)</span>
+<span id="cb22-6"><a href=""></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div style="font-size: 0.5em">
 <div class="cell">
@@ -3556,6 +3556,337 @@ Brian Njuguna
 </div>
 </div>
 </div>
+</section>
+<section id="chaining-multiple-operations-with" class="slide level2">
+<h2>Chaining multiple operations with |&gt;</h2>
+<ul>
+<li>What are the average PFPR and ITN coverage in urban versus rural areas from 2015 onwards?</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb23" data-code-line-numbers="1-2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href=""></a>average_data <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span></span>
+<span id="cb23-2"><a href=""></a>    <span class="fu">filter</span>(year <span class="sc">&gt;=</span> <span class="dv">2015</span>) <span class="sc">|&gt;</span>                    <span class="co"># Keep recent years only</span></span>
+<span id="cb23-3"><a href=""></a>    <span class="fu">select</span>(residence, pfpr, itn_coverage) <span class="sc">|&gt;</span>   <span class="co"># Keep only key columns</span></span>
+<span id="cb23-4"><a href=""></a>    <span class="fu">group_by</span>(residence) <span class="sc">|&gt;</span>                     <span class="co"># Group by urban/rural</span></span>
+<span id="cb23-5"><a href=""></a>    <span class="fu">summarise</span>(</span>
+<span id="cb23-6"><a href=""></a>        <span class="at">average_pfpr =</span> <span class="fu">mean</span>(pfpr),</span>
+<span id="cb23-7"><a href=""></a>        <span class="at">average_itn =</span> <span class="fu">mean</span>(itn_coverage)</span>
+<span id="cb23-8"><a href=""></a>    )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="chaining-multiple-operations-with-1" class="slide level2">
+<h2>Chaining multiple operations with |&gt;</h2>
+<ul>
+<li>What are the average PFPR and ITN coverage in urban versus rural areas from 2015 onwards?</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb24" data-code-line-numbers="3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href=""></a>average_data <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span></span>
+<span id="cb24-2"><a href=""></a>    <span class="fu">filter</span>(year <span class="sc">&gt;=</span> <span class="dv">2015</span>) <span class="sc">|&gt;</span>                    <span class="co"># Keep recent years only</span></span>
+<span id="cb24-3"><a href=""></a>    <span class="fu">select</span>(residence, pfpr, itn_coverage) <span class="sc">|&gt;</span>   <span class="co"># Keep only key columns</span></span>
+<span id="cb24-4"><a href=""></a>    <span class="fu">group_by</span>(residence) <span class="sc">|&gt;</span>                     <span class="co"># Group by urban/rural</span></span>
+<span id="cb24-5"><a href=""></a>    <span class="fu">summarise</span>(</span>
+<span id="cb24-6"><a href=""></a>        <span class="at">average_pfpr =</span> <span class="fu">mean</span>(pfpr),</span>
+<span id="cb24-7"><a href=""></a>        <span class="at">average_itn =</span> <span class="fu">mean</span>(itn_coverage)</span>
+<span id="cb24-8"><a href=""></a>    )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="chaining-multiple-operations-with-2" class="slide level2">
+<h2>Chaining multiple operations with |&gt;</h2>
+<ul>
+<li>What are the average PFPR and ITN coverage in urban versus rural areas from 2015 onwards?</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb25" data-code-line-numbers="4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href=""></a>average_data <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span></span>
+<span id="cb25-2"><a href=""></a>    <span class="fu">filter</span>(year <span class="sc">&gt;=</span> <span class="dv">2015</span>) <span class="sc">|&gt;</span>                    <span class="co"># Keep recent years only</span></span>
+<span id="cb25-3"><a href=""></a>    <span class="fu">select</span>(residence, pfpr, itn_coverage) <span class="sc">|&gt;</span>   <span class="co"># Keep only key columns</span></span>
+<span id="cb25-4"><a href=""></a>    <span class="fu">group_by</span>(residence) <span class="sc">|&gt;</span>                     <span class="co"># Group by urban/rural</span></span>
+<span id="cb25-5"><a href=""></a>    <span class="fu">summarise</span>(</span>
+<span id="cb25-6"><a href=""></a>        <span class="at">average_pfpr =</span> <span class="fu">mean</span>(pfpr),</span>
+<span id="cb25-7"><a href=""></a>        <span class="at">average_itn =</span> <span class="fu">mean</span>(itn_coverage)</span>
+<span id="cb25-8"><a href=""></a>    )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="chaining-multiple-operations-with-3" class="slide level2">
+<h2>Chaining multiple operations with |&gt;</h2>
+<ul>
+<li>What are the average PFPR and ITN coverage in urban versus rural areas from 2015 onwards?</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb26" data-code-line-numbers="5-8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href=""></a>average_data <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span></span>
+<span id="cb26-2"><a href=""></a>    <span class="fu">filter</span>(year <span class="sc">&gt;=</span> <span class="dv">2015</span>) <span class="sc">|&gt;</span>                    <span class="co"># Keep recent years only</span></span>
+<span id="cb26-3"><a href=""></a>    <span class="fu">select</span>(residence, pfpr, itn_coverage) <span class="sc">|&gt;</span>   <span class="co"># Keep only key columns</span></span>
+<span id="cb26-4"><a href=""></a>    <span class="fu">group_by</span>(residence) <span class="sc">|&gt;</span>                     <span class="co"># Group by urban/rural</span></span>
+<span id="cb26-5"><a href=""></a>    <span class="fu">summarise</span>(</span>
+<span id="cb26-6"><a href=""></a>        <span class="at">average_pfpr =</span> <span class="fu">mean</span>(pfpr),</span>
+<span id="cb26-7"><a href=""></a>        <span class="at">average_itn =</span> <span class="fu">mean</span>(itn_coverage)</span>
+<span id="cb26-8"><a href=""></a>    )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="fragment">
+<div style="font-size: 0.9em">
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: left;">residence</th>
+<th style="text-align: right;">average_pfpr</th>
+<th style="text-align: right;">average_itn</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">rural</td>
+<td style="text-align: right;">0.0462109</td>
+<td style="text-align: right;">0.4686167</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">urban</td>
+<td style="text-align: right;">0.0451640</td>
+<td style="text-align: right;">0.4850575</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="pivoting-data" class="slide level2">
+<h2>Pivoting data</h2>
+<ul>
+<li>What is the average PFPR for each county by residence?</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href=""></a>average_pfpr <span class="ot">&lt;-</span> pfpr_data <span class="sc">|&gt;</span></span>
+<span id="cb27-2"><a href=""></a>  <span class="fu">group_by</span>(county, residence) <span class="sc">|&gt;</span></span>
+<span id="cb27-3"><a href=""></a>  <span class="fu">summarise</span>(<span class="at">average_pfpr =</span> <span class="fu">mean</span>(pfpr))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="fragment">
+<div style="font-size: 0.9em">
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: left;">county</th>
+<th style="text-align: left;">residence</th>
+<th style="text-align: right;">average_pfpr</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Baringo</td>
+<td style="text-align: left;">rural</td>
+<td style="text-align: right;">0.0388609</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Baringo</td>
+<td style="text-align: left;">urban</td>
+<td style="text-align: right;">0.0363357</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Bomet</td>
+<td style="text-align: left;">rural</td>
+<td style="text-align: right;">0.0506745</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Bomet</td>
+<td style="text-align: left;">urban</td>
+<td style="text-align: right;">0.0487862</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Bungoma</td>
+<td style="text-align: left;">rural</td>
+<td style="text-align: right;">0.1603530</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="pivot-wider" class="slide level2">
+<h2>Pivot wider</h2>
+<ul>
+<li>What is the average PFPR for each county by residence?</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href=""></a>average_pfpr_wide <span class="ot">&lt;-</span> average_pfpr <span class="sc">|&gt;</span></span>
+<span id="cb28-2"><a href=""></a>  <span class="fu">pivot_wider</span>(<span class="at">names_from =</span> residence, <span class="at">values_from =</span> average_pfpr)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="fragment">
+<div style="font-size: 0.9em">
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: left;">county</th>
+<th style="text-align: right;">rural</th>
+<th style="text-align: right;">urban</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Baringo</td>
+<td style="text-align: right;">0.0388609</td>
+<td style="text-align: right;">0.0363357</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Bomet</td>
+<td style="text-align: right;">0.0506745</td>
+<td style="text-align: right;">0.0487862</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Bungoma</td>
+<td style="text-align: right;">0.1603530</td>
+<td style="text-align: right;">0.1590006</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Busia</td>
+<td style="text-align: right;">0.3903275</td>
+<td style="text-align: right;">0.4940240</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Elgeyo-Marakwet</td>
+<td style="text-align: right;">0.0341341</td>
+<td style="text-align: right;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="pivot-longer" class="slide level2">
+<h2>Pivot longer</h2>
+<ul>
+<li>It is the opposite of <code>pivot_wider</code></li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href=""></a>average_pfpr_long <span class="ot">&lt;-</span> average_pfpr_wide <span class="sc">|&gt;</span></span>
+<span id="cb29-2"><a href=""></a>  <span class="fu">pivot_longer</span>(<span class="at">cols =</span> <span class="fu">c</span>(rural, urban))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="fragment">
+<div style="font-size: 0.9em">
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: left;">county</th>
+<th style="text-align: left;">name</th>
+<th style="text-align: right;">value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Baringo</td>
+<td style="text-align: left;">rural</td>
+<td style="text-align: right;">0.0388609</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Baringo</td>
+<td style="text-align: left;">urban</td>
+<td style="text-align: right;">0.0363357</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Bomet</td>
+<td style="text-align: left;">rural</td>
+<td style="text-align: right;">0.0506745</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Bomet</td>
+<td style="text-align: left;">urban</td>
+<td style="text-align: right;">0.0487862</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Bungoma</td>
+<td style="text-align: left;">rural</td>
+<td style="text-align: right;">0.1603530</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="pivot-longer-1" class="slide level2">
+<h2>Pivot longer</h2>
+<ul>
+<li>It is the opposite of <code>pivot_wider</code></li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb30" data-code-line-numbers="4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href=""></a>average_pfpr_long <span class="ot">&lt;-</span> average_pfpr_wide <span class="sc">|&gt;</span></span>
+<span id="cb30-2"><a href=""></a>  <span class="fu">pivot_longer</span>(</span>
+<span id="cb30-3"><a href=""></a>    <span class="at">cols =</span> <span class="fu">c</span>(rural, urban), </span>
+<span id="cb30-4"><a href=""></a>    <span class="at">names_to =</span> <span class="st">"residence"</span>, </span>
+<span id="cb30-5"><a href=""></a>    <span class="at">values_to =</span> <span class="st">"average_pfpr"</span></span>
+<span id="cb30-6"><a href=""></a>    )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="pivot-longer-2" class="slide level2">
+<h2>Pivot longer</h2>
+<ul>
+<li>It is the opposite of <code>pivot_wider</code></li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb31" data-code-line-numbers="5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href=""></a>average_pfpr_long <span class="ot">&lt;-</span> average_pfpr_wide <span class="sc">|&gt;</span></span>
+<span id="cb31-2"><a href=""></a>  <span class="fu">pivot_longer</span>(</span>
+<span id="cb31-3"><a href=""></a>    <span class="at">cols =</span> <span class="fu">c</span>(rural, urban), </span>
+<span id="cb31-4"><a href=""></a>    <span class="at">names_to =</span> <span class="st">"residence"</span>, </span>
+<span id="cb31-5"><a href=""></a>    <span class="at">values_to =</span> <span class="st">"average_pfpr"</span></span>
+<span id="cb31-6"><a href=""></a>    )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="fragment">
+<div style="font-size: 0.9em">
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: left;">county</th>
+<th style="text-align: left;">residence</th>
+<th style="text-align: right;">average_pfpr</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Baringo</td>
+<td style="text-align: left;">rural</td>
+<td style="text-align: right;">0.0388609</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Baringo</td>
+<td style="text-align: left;">urban</td>
+<td style="text-align: right;">0.0363357</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Bomet</td>
+<td style="text-align: left;">rural</td>
+<td style="text-align: right;">0.0506745</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Bomet</td>
+<td style="text-align: left;">urban</td>
+<td style="text-align: right;">0.0487862</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Bungoma</td>
+<td style="text-align: left;">rural</td>
+<td style="text-align: right;">0.1603530</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="questions" class="slide level2">
+<h2>Questions</h2>
 
 </section>
     </div>
