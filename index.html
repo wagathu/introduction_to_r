@@ -488,7 +488,7 @@
   };
 
   // Store cell data
-  globalThis.qwebrCellDetails = [{"code":"# Numeric/double\nx <- 42\ntypeof(x)\n\n# Character\ny <- \"Hello\"\ntypeof(y)\n\n# Logical\nz <- TRUE\ntypeof(z)\n\n# Integer needs L\nw <- 42L\ntypeof(w)","id":1,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"echo":"true","editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","eval":"false","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-1","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"# Different vector types\nnums <- c(10, 20, 30)\nchars <- c(\"apple\", \"banana\", \"cherry\")\nlogicals <- c(TRUE, FALSE, TRUE)\n\n# Vector operations\nnums * 2        # multiply all by 2\nnums[2]         # get second element\nlength(nums)    # vector length\n\n# Try your own vectors!","id":2,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-2","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"# Create a matrix\nmat <- matrix(1:12, nrow = 3, ncol = 4)\nmat\n\n# Matrix dimensions\ndim(mat)\nnrow(mat)\nncol(mat)\n\n# Access elements\nmat[2, 3]       # row 2, column 3\nmat[1, ]        # entire first row\nmat[, 2]        # entire second column","id":3,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-3","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"# Create a mixed list\nmy_list <- list(\n  name = \"John\",\n  age = 25,\n  scores = c(85, 90, 78),\n  married = TRUE\n)\n\nmy_list\n\n# Access elements\nmy_list$name\nmy_list$scores\nmy_list[[2]]    # age by position","id":4,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-4","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"# Create a data frame\nstudents <- data.frame(\n  name = c(\"Alice\", \"Bob\", \"Carol\"),\n  age = c(20, 22, 21),\n  grade = c(\"A\", \"B\", \"A\"),\n  passed = c(TRUE, TRUE, TRUE)\n)\n\nstudents\n\n# Access columns by name\nstudents$name\nstudents$age","id":5,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-5","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"# Practice area - experiment with data structures!\n\n# 1. Create your own vector\n\n\n# 2. Make a matrix\n\n\n# 3. Build a list\n\n\n# 4. Construct a data frame\n\n\n# Use functions like str(), class(), length(), dim() to explore!","id":6,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-6","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"# only need to do this once\ninstall.packages(\"tidyverse\")","id":7,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-7","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"library(tidyverse)","id":8,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-8","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
+  globalThis.qwebrCellDetails = [{"code":"","id":1,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-1","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"# Numeric/double\nx <- 42\ntypeof(x)\n\n# Character\ny <- \"Hello\"\ntypeof(y)\n\n# Logical\nz <- TRUE\ntypeof(z)\n\n# Integer needs L\nw <- 42L\ntypeof(w)","id":2,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"echo":"true","editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","eval":"false","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-2","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"# Different vector types\nnums <- c(10, 20, 30)\nchars <- c(\"apple\", \"banana\", \"cherry\")\nlogicals <- c(TRUE, FALSE, TRUE)\n\n# Vector operations\nnums * 2        # multiply all by 2\nnums[2]         # get second element\nlength(nums)    # vector length\n\n# Try your own vectors!","id":3,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-3","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"# Create a matrix\nmat <- matrix(1:12, nrow = 3, ncol = 4)\nmat\n\n# Matrix dimensions\ndim(mat)\nnrow(mat)\nncol(mat)\n\n# Access elements\nmat[2, 3]       # row 2, column 3\nmat[1, ]        # entire first row\nmat[, 2]        # entire second column","id":4,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-4","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"# Create a mixed list\nmy_list <- list(\n  name = \"John\",\n  age = 25,\n  scores = c(85, 90, 78),\n  married = TRUE\n)\n\nmy_list\n\n# Access elements\nmy_list$name\nmy_list$scores\nmy_list[[2]]    # age by position","id":5,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-5","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"# Create a data frame\nstudents <- data.frame(\n  name = c(\"Alice\", \"Bob\", \"Carol\"),\n  age = c(20, 22, 21),\n  grade = c(\"A\", \"B\", \"A\"),\n  passed = c(TRUE, TRUE, TRUE)\n)\n\nstudents\n\n# Access columns by name\nstudents$name\nstudents$age","id":6,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-6","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"# Practice area - experiment with data structures!\n\n# 1. Create your own vector\n\n\n# 2. Make a matrix\n\n\n# 3. Build a list\n\n\n# 4. Construct a data frame\n\n\n# Use functions like str(), class(), length(), dim() to explore!","id":7,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-7","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"# only need to do this once\ninstall.packages(\"tidyverse\")","id":8,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-8","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"library(tidyverse)","id":9,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-9","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"","id":10,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-10","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
 
   </script>
   <script type="module">
@@ -2192,6 +2192,11 @@ Brian Njuguna
 </div>
 </div>
 </section>
+<section id="basic-syntax-in-r-2" class="slide level2">
+<h2>Basic Syntax in R</h2>
+<div id="qwebr-insertion-location-1"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
 <section id="data-types-in-r" class="slide level2">
 <h2>Data types in R</h2>
 <ul>
@@ -2233,7 +2238,7 @@ Brian Njuguna
 <li>Use the <code>typeof()</code> function to check a data type</li>
 </ul>
 </div><div class="column" style="width:40%;">
-<div id="qwebr-insertion-location-1"></div>
+<div id="qwebr-insertion-location-2"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </div></div>
 </section>
@@ -2267,7 +2272,7 @@ Brian Njuguna
 <section id="vectors-in-r-1" class="slide level2">
 <h2>Vectors in R</h2>
 <p>Vectors are the most basic data structure - a collection of elements of the same type.</p>
-<div id="qwebr-insertion-location-2"></div>
+<div id="qwebr-insertion-location-3"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
 <section id="matrices-in-r" class="slide level2">
@@ -2289,7 +2294,7 @@ Brian Njuguna
 <section id="matrices-in-r-1" class="slide level2">
 <h2>Matrices in R</h2>
 <p>Matrices are two-dimensional arrays where all elements must be the same data type.</p>
-<div id="qwebr-insertion-location-3"></div>
+<div id="qwebr-insertion-location-4"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
 <section id="lists-in-r" class="slide level2">
@@ -2315,7 +2320,7 @@ Brian Njuguna
 <section id="lists-in-r-1" class="slide level2">
 <h2>Lists in R</h2>
 <p>Lists can hold different data types and structures</p>
-<div id="qwebr-insertion-location-4"></div>
+<div id="qwebr-insertion-location-5"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
 <section id="data-frames-in-r" class="slide level2">
@@ -2347,13 +2352,13 @@ Brian Njuguna
 <section id="data-frames-in-r-2" class="slide level2">
 <h2>Data Frames in R</h2>
 <p>Data frames are like spreadsheets - the most common structure for real data analysis.</p>
-<div id="qwebr-insertion-location-5"></div>
+<div id="qwebr-insertion-location-6"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
 <section id="interactive-data-structure-explorer" class="slide level2">
 <h2>Interactive Data Structure Explorer</h2>
 <p>Try creating and exploring different data structures:</p>
-<div id="qwebr-insertion-location-6"></div>
+<div id="qwebr-insertion-location-7"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
 <section id="r-packages" class="slide level2">
@@ -2365,14 +2370,14 @@ Brian Njuguna
 <ul>
 <li>Packages need to be installed on your machine</li>
 </ul>
-<div id="qwebr-insertion-location-7"></div>
+<div id="qwebr-insertion-location-8"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </div>
 <div class="fragment">
 <ul>
 <li>Packages need to be loaded/attached with <code>library()</code> at the beginning of every session</li>
 </ul>
-<div id="qwebr-insertion-location-8"></div>
+<div id="qwebr-insertion-location-9"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </div>
 </section>
@@ -3887,6 +3892,11 @@ Brian Njuguna
 </section>
 <section id="questions" class="slide level2">
 <h2>Questions</h2>
+</section>
+<section id="functions" class="slide level2">
+<h2>Functions</h2>
+<div id="qwebr-insertion-location-10"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 
 </section>
     </div>
